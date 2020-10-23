@@ -55,16 +55,19 @@ footer{
 
 @-webkit-keyframes logo_wiggle{
   /*Your code here.*/
+  0% {width: 25px;}
+  100% {width: 420px;}
 }
 
 @keyframes logo_wiggle{
   /*Your code here.*/
-  animation: wiggle 15s;
+  0% {width: 25px;}
+  100% {width: 420px;}
 
 }
 
 #logo{
-   /*Your code here.*/
+    /*Your code here.*/
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -74,9 +77,8 @@ footer{
 /* Cards! */
 .pricing{
     min-height: 500px;
-
-    /*Your code here.*/
-    /*Don't forget to vertically and horizontally alight the card*/
+      /*Your code here.*/
+      /*Don't forget to vertically and horizontally alight the card*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,8 +91,8 @@ footer{
   border-radius: 7px;
   padding: 0 0 50px 0;
 
-  /*Your code here.*/
-  /*Take a look at flex-basis*/
+    /*Your code here.*/
+    /*Take a look at flex-basis*/
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -140,7 +142,7 @@ footer{
 /* Gallery! */
 .gallery{
   min-height: 600px;
-  /*Your code here again.*/
+    /*Your code here again.*/
   display: flex;
   flex-wrap: wrap;
   flex-basis: 225px;
