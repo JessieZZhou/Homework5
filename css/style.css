@@ -158,8 +158,6 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
     /*Your  code here again.*/
-
-    /*after*/
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -173,7 +171,6 @@ header{
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-}
 }
 
 .nav_item a{
@@ -229,7 +226,24 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/
-}
+  .pricing{
+    align-items: flex-start;
+  }
+
+  .body{
+    background-image: none;
+  }
+
+  #gallery {
+    display: none;
+  }
+
+  .gallery{
+    display: none;
+  }
 
 /*Your code here again.*/
 /*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion: reduce){
+
+}
