@@ -68,10 +68,7 @@ footer{
 
 #logo{
     /*Your code here.*/
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
+  animation: logo_wiggle 15s;
 }
 
 /* Cards! */
@@ -160,12 +157,23 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  /*Your  code here again.*/
+    /*Your  code here again.*/
+
+    /*after*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 
 .nav_links{
-  /*Your code here again.*/
-  text-align: center;
+    /*Your code here again.*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
 }
 
 .nav_item a{
@@ -195,10 +203,18 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
   }
 
   .nav_item a{
